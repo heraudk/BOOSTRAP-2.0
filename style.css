@@ -1,0 +1,265 @@
+
+
+
+  body
+  {
+  background-image:url(../IMAGES/fond\ ecran\ ok\ html\ png.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Neon80s";
+  padding-bottom: 3rem;
+  font-size: 23px;
+  color: white;
+  }
+
+
+  font
+  {
+    color: #f47e0b;
+  }
+
+
+
+
+  @font-face
+{
+    font-family: "Neon80s";
+    src: url("../FONT/Neon.ttf") format('truetype');
+}
+
+  
+
+.bandeau
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;    
+    background-image:url(../IMAGES/bandeau\ test\ 11.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    height: 300px;
+    }
+
+
+
+
+.navbar
+{
+    background-color: #ffc90e;
+}
+
+
+.nav-item a
+{
+    background-size: cover;
+    padding: 20px;
+    margin: 2px;
+    background: #f47e0b;
+    border-radius: 8px;
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container
+    {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    }
+
+
+.item
+    {
+    
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 8px;
+    margin-left: 8px;
+    padding: 8px;
+    font-size: 24px;
+    text-align: center;
+    opacity: 0.8;
+    width: 600px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width:400px)
+    {
+         img
+             {
+             max-width: 360px;
+             height:auto;
+             }
+         iframe
+         {
+           max-width: 360px;
+           height: 360px;
+         }
+    }
+   
+    @media screen and (min-width:401px) and (max-width:640px)
+   {
+   
+           img
+            {
+             max-width: 380px;
+             height: auto;
+           }
+           iframe
+         {
+           max-width: 380px;
+           height: 380px;
+         }
+   }
+   
+   @media screen and (min-width:641px) and (max-width:1200px)
+   {
+   
+           img
+            {
+             max-width: 100%;
+             height: auto;
+           }
+           iframe
+         {
+           max-width: 100%;
+           height: 380px;
+         }
+   }
+   
+   
+   
+   
+   
+   
+   @media screen and (min-width:1201px) and (max-width:1280px)
+   {
+     img
+     {
+       max-width: 100%;
+       height: auto;
+     }
+   
+     iframe
+         {
+           margin-top: 15px;
+         }
+   
+   }
+   
+   @media screen and (min-width:1840px) and (max-width:2500px)
+   {
+     img
+     {
+       max-width: 100%;
+       height: auto;
+     }
+   
+     iframe
+         {
+           margin-top: 15px;
+         }
+   
+   }
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+ 
+
+
